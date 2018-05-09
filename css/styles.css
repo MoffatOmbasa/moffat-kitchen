@@ -154,3 +154,18 @@ background-color: white;
 color: #F15A29;
 border: 2px solid #F15A29;
 }
+
+
+.text {
+color: white;
+font-size: 40px;
+font-family: 'Handlee', Open Sans;
+padding: 16px 32px;
+white-space: nowrap;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
