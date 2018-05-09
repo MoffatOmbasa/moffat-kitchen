@@ -16,3 +16,141 @@ font-size: 60px;
 margin-top: 4%;
 text-align: center;
 }
+.happy{
+height: 119px;
+width:300px;
+}
+.men{
+margin-top: 20px;
+margin-left: 20px;
+background-color: transparent;
+height: 50px;
+width: 75px;
+}
+.container-fluid {
+  padding-top: 0;
+}
+/*-------MEDIA----------*/
+.media{
+padding: 0;
+height: 850px;
+width:100%;
+background-image: url(../images/landing.jpg);
+ background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-top: 70px;
+}
+.media2{
+padding: 0;
+height: 600px;
+width:100%;
+background-image: url(../images/foodsBg.jpg);
+ background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+.media3{
+padding: 0;
+height: 300px;
+width:100%;
+background-image: url(../images/subscribe.jpg);
+ background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+/*-------OVERLAY---------*/
+.overlay{
+padding: 0;
+margin: auto;
+width: 100%;
+height: 850px;
+background: black;
+background:rgba(0,0,0,0.0);
+}
+.bg-1{
+padding: 0;
+}
+.bg-1:hover .overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(250,250,250,0.5);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+.bg-1:hover .text {
+color: #000000;
+}
+.bg-0{
+padding: 0;
+}
+.bg-00{
+background-color:#F15A29;
+}
+/*-----Clickable menu------*/
+.overlayMenu {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #F15A29;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlayMenu a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.overlayMenu a:hover, .overlayMenu a:focus {
+color: #f1f1f1;
+}
+
+.overlayMenu .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+/*---BUTTONS-----*/
+.button {
+border: none;
+color: #F15A29;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.button1 {
+background-color: white;
+color: #F15A29;
+border: 2px solid #F15A29;
+}
