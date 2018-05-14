@@ -148,14 +148,21 @@ margin: 4px 2px;
 cursor: pointer;
 border-radius: 5px;
 }
+.social {
+  background-color: #F15A29;
+  margin-top: 1%
+}
+.socia{
+margin-left: auto;
+margin-right: auto;
+width: 50%
+}
 
 .button1 {
 background-color: white;
 color: #F15A29;
 border: 2px solid #F15A29;
 }
-
-
 .text {
 color: white;
 font-size: 40px;
@@ -225,7 +232,6 @@ background-color: #ccc;
 }
 #text3 {
 padding: 5%;
-text-align: center;
 }
 .textt {
 text-align: center;
@@ -234,8 +240,8 @@ color: #ffffff;
 }
 .cust{
 width: 80%;
-margin-top: 10%;
-margin-bottom: 10%;
+margin-top:2%;
+margin-bottom:2%;
 margin-left: 10%;
 margin-right: 10%;
 border-color: transparent;
